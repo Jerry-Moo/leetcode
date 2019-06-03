@@ -5,6 +5,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        # 动态规划 求解
         if n == 1:
             return 1
         elif n == 2:
